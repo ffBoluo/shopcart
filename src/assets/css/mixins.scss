@@ -1,0 +1,7 @@
+// 不换行省略号
+@mixin ellipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
